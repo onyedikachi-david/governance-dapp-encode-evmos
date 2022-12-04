@@ -1,0 +1,146 @@
+.proposal-page {
+  background-color: var(--bg-color);
+  padding: 30px var(--page-padding);
+  min-height: 100vh;
+
+  .back-btn {
+    cursor: pointer;
+  }
+
+  .p-date,
+  .back-btn {
+    font-size: var(--sm-text-size);
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .p-result {
+    width: 75px;
+    font-size: var(--sm-text-size);
+    color: var(--res-color);
+    border: 0.5px solid var(--res-color);
+    text-align: center;
+    padding: 2px 0px;
+    border-radius: 2px;
+  }
+
+  .p-owner {
+    font-size: var(--sm-text-size);
+    color: rgba(0, 0, 0, 0.5);
+    text-overflow: ellipsis;
+  }
+
+
+  .options-flex {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .option {
+      height: 5rem;
+      width: 100%;
+      display: grid;
+      place-content: center;
+      background-color: white;
+      // border: 1px solid var(--accent);
+      border-radius: 10px;
+    }
+
+    .option:hover {
+      transition: transform 100ms linear;
+      border: 1px solid var(--primary);
+      transform: scale(1.05);
+    }
+  }
+
+  .p-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+
+    .votes-card {
+      margin: 30px 0px;
+      // height: 400px;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px,
+        rgba(0, 0, 0, 0.04) 0px 4px 8px,
+        rgba(0, 0, 0, 0.04) 0px 16px 24px,
+        rgba(0, 0, 0, 0.01) 0px 24px 32px;
+    }
+
+    .card-title {
+      padding: 25px;
+      position: relative;
+    }
+
+    .card-title::before {
+      content: "";
+      position: absolute;
+      bottom: 0%;
+      left: 0%;
+      width: 100%;
+      height: 0.5px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .progress-bar-track {
+      height: 3px;
+      border-radius: 1px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+
+    .progress-bar-thumb {
+      height: 3px;
+      border-radius: 1px;
+      background-color: var(--primary);
+    }
+
+    .card-subtitle {
+      padding: 20px 25px;
+
+      .subtitle {
+        font-size: var(--xs-text-size);
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+
+    .address-tile {
+      // height: 100px;
+      cursor: pointer;
+      width: 100%;
+      padding: 20px 25px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        font-size: var(--xs-text-size);
+      }
+    }
+
+    .address-tile::before {
+      content: "";
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 0.5px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+  }
+}
+
+.description {
+  font-size: var(--sm-text-size);
+  color: var(--accent);
+}
+
+.selected {
+  border: 1px solid var(--primary);
+  font-size: calc(1.2 * var(--text-size));
+  box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0.25);
+}

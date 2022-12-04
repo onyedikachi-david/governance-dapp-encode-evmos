@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GovToken.sol": "SafeMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Exchange.sol": {
+			"keccak256": "0xc19ae22909336d69c9a87db96053b26b62a7814f53ed89e26d10f75df89dd9fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://efd177540dc27a821f3454b932a4f60f343974e61c79bfb74bfdbe8645e9afa6",
+				"dweb:/ipfs/Qma1CvopcBUiGuWXp2JQPibHqpyt62xppT8PXTYMuc4oG2"
+			]
+		},
+		"GovToken.sol": {
+			"keccak256": "0xb374effbc1f6d8996d18d51df7c46bf9bf827ced6a43cde58d7a49680de5cf8d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0894878f300e65671d88036e56178a98a124a699ce6abb6d568e8071bee2be46",
+				"dweb:/ipfs/QmY6Fk3FyyfDQwihcwBLwhQDUZJaak6aRNakKieT7TjdKg"
+			]
+		}
+	},
+	"version": 1
+}
