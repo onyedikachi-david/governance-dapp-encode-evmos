@@ -24,7 +24,7 @@ Prominent features of GovDAO
 - Web3.js
 - Solidity
 - Truffle Suite
-- Polygon Mumbai Testnet
+- Evmos Testnet
 
 ## Key Benefits
 - Unlike traditional organizations where only top board members get a vote in the decision making, a DAO includes all the members in the decision making process.
